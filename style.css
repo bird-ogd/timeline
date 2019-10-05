@@ -1,0 +1,38 @@
+div {
+	background-color: white;
+	height: 75px;
+	display: inline-block;
+}
+
+.year {
+	background-color: white;
+	width: <?php echo $since; ?>px;
+	height: 30px;
+}
+
+.timeline_bar {
+	background-color: white;
+	width: <?php echo $since; ?>px;
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	font-size: 0.9em;
+	width: 95px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
